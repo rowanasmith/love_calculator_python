@@ -16,8 +16,8 @@ l = lower_name_string.count("l")
 o = lower_name_string.count("o")
 v = lower_name_string.count("v")
 
-digit_one = string(t + r + u + e)
-digit_two = string(l + o + v + e)
+digit_one = str(t + r + u + e)
+digit_two = str(l + o + v + e)
 result = int(digit_one + digit_two)
 
 print(result)
