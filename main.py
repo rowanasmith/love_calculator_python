@@ -20,9 +20,9 @@ digit_one = str(t + r + u + e)
 digit_two = str(l + o + v + e)
 result = int(digit_one + digit_two)
 
-if result < 10 or > 90:
+if result < 10 or result > 90:
   print(f"Your score is {result}, you go together like Coke and Mentos.")
-elif result >= 40 and <= 50:
+elif result >= 40 and result <= 50:
   print(f"Your score is {result}, you are alright together")
 else:
   print(f"Your score is {result})
