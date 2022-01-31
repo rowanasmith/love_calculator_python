@@ -6,7 +6,7 @@ name2 = input("What is their name? \n")
 
 #Write your code below this line 👇
 
-lower_name_string = lower(name1 + name2)
+lower_name_string = name1.lower() + name2.lower()
 
 t = lower_name_string.count("t")
 r = lower_name_string.count("r")
