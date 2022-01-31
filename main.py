@@ -25,4 +25,4 @@ if result < 10 or result > 90:
 elif result >= 40 and result <= 50:
   print(f"Your score is {result}, you are alright together")
 else:
-  print(f"Your score is {result})
+  print(f"Your score is {result}")
